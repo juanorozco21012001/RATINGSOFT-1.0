@@ -1,0 +1,97 @@
+
+
+body {
+    background: black;
+    color: aqua;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(IMG/logosena.png) no-repeat center ;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 70vh;
+    padding: auto;
+    width: 320px;
+    height: 520px;
+  }
+  logosena{
+    position: relative;
+  }
+  .aavatar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(255, 255, 255, 0.843);
+  }
+  .aavatar {
+    font-family: cursive;
+    font-size: 15px;
+  }
+  .login-boxx {
+    font-family: 'Times New Roman', Times, serif;
+    width: 320px;
+    height: 520px;
+    background: rgb(0, 0, 0);
+    color: rgba(12, 119, 241, 0.843);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 40px;
+    border-radius: 20px;
+  }
+  
+  .login-boxx .aavatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+  }
+  
+  .login-boxx h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .login-boxx label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .login-boxx input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .login-boxx input[type="text"], .login-box input[type="contraseña"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  .login-boxx input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #08824d;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  .login-boxx input[type="submit"]:hover {
+    cursor: pointer;
+    background: #07deff;
+    color: #000;
+  }
+  

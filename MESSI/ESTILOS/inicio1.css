@@ -1,0 +1,175 @@
+
+
+html, body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'RobotoCondensedRegular';
+	font-size: 16px;
+    background-image: url();
+}
+.full-width{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.ShowBox{
+	opacity: 1 !important;
+	pointer-events: auto !important;
+}
+.formated-section{
+	padding: 60px 0;
+}
+.font-oswald{
+	font-family: 'OswaldRegular';
+}
+/*=========== Barra de navegacion ===*/
+.NavBarP,
+.NavBarP-Logo,
+.NavBarP-Nav,
+.NavBarP-Nav > ul,
+.NavBarP-Nav > ul > li,
+.NavBarP-Nav > ul > li > a{
+	height: 50px;
+	line-height: 50px;
+}
+.NavBarP{
+	background-color: #141414;
+	color: #5c6ffbd9;
+	position: relative;
+	font-family:'Times New Roman', Times, serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.NavBarP-Logo,
+.NavBarP-Nav{
+	position: absolute;
+	top: 0;
+    background-image: url(/IMAGENES/Cette\ photo\ de\ Lionel\ Messi\ prise\ après\ Reims-PSG\ crée\ une\ grosse\ polémique\ sur\ Twitter.jfif);
+    background-size: 200%;
+}
+.NavBarP-Logo{
+	left: 0;
+	width: 30%;
+	font-family: 'OswaldRegular';
+}
+.NavBarP-Nav{
+	right: 0;
+	width: 70%;
+}
+.NavBarP-Nav > ul{
+	text-align: right;
+	padding-right: 10px;
+}
+.NavBarP-Nav > ul > li{
+	display: inline-block;
+	position: relative;
+}
+.NavBarP-Nav > ul > li > a{
+	color: #fff;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	padding: 0 7px;
+	transition: all .3s ease-in-out;
+}
+.NavBarP-Nav > ul > li > a:hover{
+	color: #5c6ffbd9;
+}
+/*====== Login ==*/
+.Login{
+	right: 0;
+	z-index: 77;
+	background: #fff;
+	color: #141414;
+	text-transform: none;
+	line-height: normal;
+	padding: 7px;
+	text-align: left;
+	font-size: 14px;
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	pointer-events: none;
+}
+.Login a{
+	text-decoration: none;
+	line-height: auto;
+	text-align: center;
+	display: block;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: calc(100vh - 50px);
+	background-color: #F5F5F5;
+	background-size: cover;
+	background-position: center;
+	transition: all .1s ease-out;
+	background-image: url('/IMAGENES/y2.jpg');
+	animation: banner 28s infinite linear;
+}
+.banner-content{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+	background-color: rgba(0, 22, 40, .6);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.banner-content h1{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;
+	font-size: 40px;
+	text-align: center;
+
+}
+.banner-content a{
+    border-radius: 20px;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 9px 20px;
+	border: 1px solid #FFF;
+	text-transform: uppercase;
+	transition: all .3s ease-in-out;
+}
+.banner-content a:hover{
+	background-color: #3950f9d9;
+	color: #000000;
+}
+
+
+
+
+
+
+.video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.logoContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0) url(LogoKreySVG.svg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    mix-blend-mode: screen;
+}
