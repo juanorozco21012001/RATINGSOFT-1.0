@@ -23,12 +23,12 @@ body{
 
 
 .box-bienvenida .logo-sena img{
-    width: 70px;
-    height: 70px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     position: absolute;
-    top: 10px;
-    left: calc(50% - 35px);
+    top: -10px;
+    left: calc(50% - 60px);
 }
 
 .box-bienvenida h1{

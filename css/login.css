@@ -89,6 +89,11 @@ body {
     color: #26D2F9;
   }
 
+  .btn{
+    position: absolute;
+    left: 30%;
+  }
+
 
 
 
