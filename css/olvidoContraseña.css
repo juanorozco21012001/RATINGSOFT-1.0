@@ -8,9 +8,9 @@ body{
 }
 
 .box-recuperar{
-    width: 220px;
-    height: 400px;
-    background: #041926;
+    width: 250px;
+    height: 500px;
+    background: #05151f;
     box-shadow: 0 0 5px 5px #62C2A1;
     color: #fff;
     top:50%;
@@ -103,8 +103,3 @@ body{
     font-weight: bold;
     
 }
-
-
-
-
-
