@@ -5,10 +5,15 @@
     overflow: hidden;
 }
 
-body{
-    background-color: antiquewhite;
-    height: 100%;
-    width: 100%;
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../imagenes/por-que-se-perdio-el-prestigio-de-la-profesion-docente-en-america-latina.jpg)no-repeat center top;
+    /* background-color:#124C6F ; */
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
 }
 
 main{
@@ -23,9 +28,10 @@ main{
 
 .title{
     font-size: 60px;
-    color: #121212;
-    font-weight: 700;
+    color: #fff;
+    font-weight: 500;
     margin-bottom: 5rem;
+    margin-top: -200px;
 }
 
 .faq-content{
@@ -116,4 +122,8 @@ main{
     right: 8%;
     left: auto;
     transform: translate(0%, -50%) rotate(-45deg);
+}
+
+p{
+    background-color: antiquewhite;
 }

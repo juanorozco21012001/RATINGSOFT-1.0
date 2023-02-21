@@ -30,6 +30,11 @@ header{
     width: 60px;
 }
 
+.logo img:hover{
+    width: 100px;
+    transition: all 400ms ease;
+}
+
 .search input{
     width: 250px;
     padding: 5px;
@@ -41,7 +46,7 @@ header{
 
 
 h2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+    font-family:'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
 }
@@ -53,34 +58,7 @@ h2{
     position:center;
 }
 
-.inicio_sesion .regis{
-    margin: 10px;
-    padding: 6px;
-    border-radius: 3px;
-    text-decoration: none;
-    text-transform: none;
-    color: white;
-    font-size: 14px;
-    background-color: #015668;
-}
-.inicio_sesion .regis:hover{
-    background-color: #2077b1;
-}
 
-.inicio_sesion .ingres{
-    margin: 10px;
-    padding: 6px;
-    border-radius: 3px;
-    text-decoration: none;
-    text-transform: none;
-    color: white;
-    font-size: 14px;
-    background-color: #015668;
-}
-
-.inicio_sesion .ingres:hover{
-    background-color: #2077b1;
-}
 
 /*BARRA MENU*/
 .container_menu{
@@ -318,6 +296,8 @@ article p{
     
 
 }
+
+
 
 .pie-pagina{
     width: 100%;
