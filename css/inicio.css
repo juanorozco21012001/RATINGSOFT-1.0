@@ -47,9 +47,10 @@ h2{
 }
 
 .imagen-vista img{
-    height:400px;
-    width: 1250px;
+    height:350px;
+    width: 500px;
     background-size: cover;
+    position:center;
 }
 
 .inicio_sesion .regis{
@@ -85,7 +86,7 @@ h2{
 .container_menu{
     width: 100%;
     height: 50px;
-    background-color:#015668 ;
+    background-color:#0d6274 ;
     padding:0px 40px;
 }
 .menu{
@@ -382,4 +383,36 @@ article p{
     text-align: center;
     color:#fff;
 }
+/* kkkkkkkkkkkkkkkkk */
 
+.carrusel {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .carrusel-items {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 20px 0px;
+  }
+  
+  .carrusel-item {
+    min-width: 320px;
+    max-width: 220px;
+    height: 250px;
+    outline: 2px solid black;
+    cursor: pointer;
+  }
+  
+  .carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .carrusel-item:hover {
+    transform: scale(1.2);
+  }
+  
